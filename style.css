@@ -1,0 +1,93 @@
+/* Local fonts */
+@font-face {
+  font-family: GoodSans;
+  src: url(GoodSans-Regular.otf);
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+
+
+video {  
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+h1 {
+    color: #fff;
+    /* text-align: left; */
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: GoodSans;
+}
+
+.name-heading{
+  font-family: GoodSans;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.nav_bar {
+  color: rgb(0, 0, 0);
+  float: right;
+  margin-top: 2%;
+  margin-left: 2%;
+  font-family: GoodSans;
+}
+
+.nav_bar a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav_bar a:hover {
+  /* background-color: #ddd; */
+  color: rgb(228, 13, 13);
+}
+
+.bio{
+  font-family: GoodSans;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.bio-photo {
+  text-align: center;
+}
+
+.bio-photo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query for screens smaller than 600px (adjust as needed) */
+@media screen and (max-width: 600px) {
+  .bio-photo img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
