@@ -89,5 +89,9 @@ h1 {
     max-width: 100%;
     height: auto;
   }
+
+  video {
+    display: none; /* Hide the desktop video on mobile */
+  }
 }
 
