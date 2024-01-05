@@ -90,14 +90,14 @@ h1 {
     height: auto;
   }
 
-  video {
+  .video-desktop {
     display: none; /* Hide the desktop video on mobile */
   }
 }
 
 /* Media query for screens 601px and larger (adjust as needed) */
 @media screen and (min-width: 601px) {
-  video {
-    display: block; /* Show the desktop video on larger screens */
+  .video-mobile {
+    display: none; /* Show the desktop video on larger screens */
   }
 }
